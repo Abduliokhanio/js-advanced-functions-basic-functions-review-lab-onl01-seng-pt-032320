@@ -11,8 +11,9 @@ function wrapAdjective(flair="*") {
   return function(adj="special") {
     return `You are ${flair }${adj}${flair}!`;
   }
+}
 
-  const Calculator = {
+const Calculator = {
   add: function(a, b) {
     return a+b;
   },
@@ -25,5 +26,4 @@ function wrapAdjective(flair="*") {
   divide: function(a, b) {
     return a/b;
   }
-}
 }
