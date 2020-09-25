@@ -11,4 +11,19 @@ function wrapAdjective(flair="*") {
   return function(adj="special") {
     return `You are ${flair }${adj}${flair}!`;
   }
+
+  const Calculator = {
+  add: function(a, b) {
+    return a+b;
+  },
+  subtract: function(a, b) {
+    return a-b;
+  },
+  multiply: function(a, b) {
+    return a*b;
+  },
+  divide: function(a, b) {
+    return a/b;
+  }
+}
 }
